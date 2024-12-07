@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+</head>
+<body>
+     <div id="blog">
+      <div id="blog1">
+        <h1>BLOGGE</h1>
+      </div>
+      <div id="blog0">
+        <div id="blog2">
+          <nav>
+            <ul>
+              <li>
+                <a href="/dashboard.html">Dashboard</a>
+                <a href="/index.html">Home</a>
+                <a href="/index.html">About</a>
+                <a href="/contact.html">Contact</a>
+                <a href="ligin.html">Login</a>
+                <a href="/Resume/My Resume.pdf">Resume</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div id="blog3">
+          <nav>
+            <ul>
+              <li>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://github.com/PraveenChoudhary90"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/praveen-choudhary-b38305210/"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    
+
+    <div id="tabeldata">
+     
+        <table border=" " style="color: goldenrod;">
+              <button onclick="showForm()" style="border: 1px solid black; border-radius: 30px; padding: 12px; background-color: orchid; color: white; font-size: 15px; margin-bottom: 150px;">ADD DATA</button>
+            <thead>
+                    <th>ID</th>
+                    <th>NAME</th>
+                    <th>EMAIL</th>
+                    <th>MOBILE</th>
+                    <th>CITY</th>
+                    <th>DELETE</th>
+                    <th>UPDATE</th>
+                   
+            </thead>
+            <tbody  id="showdata" style="font-size: 35px;">
+            </tbody>
+        </table>
+        </div>
+
+        
+
+
+  <form id="addForm"  style="position: absolute; top: 100px; left: 500px; z-index: 10; background-color: grey;display: none; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+    <label for="image" style="display: block; margin-bottom: 5px; font-weight: bold;">Enter Your name</label>
+    <input type="text" placeholder="enter Your full name" id="name" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
+    
+    <label for="product" style="display: block; margin-bottom: 5px; font-weight: bold;">Enter Your Email</label>
+    <input type="text" placeholder="Enter Your Email Address" id="email" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
+    
+    <label for="brand" style="display: block; margin-bottom: 5px; font-weight: bold;">Enter your number</label>
+    <input type="text" placeholder="Enter Your number" id="number" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
+    
+    <label for="price" style="display: block; margin-bottom: 5px; font-weight: bold;">Enter your city</label>
+    <input type="text" placeholder="Enter the Address" id="city" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
+    
+    <button onclick="Addingdata();" style="background-color: #28a745; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px;">Add data</button>
+    <button onclick="hideForm();" style="background-color: white; color:red; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px;">Close</button>
+</form>
+
+<div id="edittabel"></div>
+
+        
+
+    
+    <div id="post"><h1>Instagram Post</h1></div>
+    <div id="photo">
+      <img src="/IMG-20230103-WA0079.jpg" alt="">
+      <img src="/IMG-20230506-WA0012.jpg" alt="">
+      <img src="/IMG-20230511-WA0052.jpg" alt="">
+      <img src="/IMG-20241009-WA0098.jpg" alt="">
+      <img src="/IMG-20240912-WA0071.jpg" alt="">
+      <img src="/IMG-20241009-WA0121.jpg" alt="">
+      <img src="/IMG_20211010_115414.jpg" alt="">
+      <img src="/IMG_20211028_105231.jpg" alt="">
+      <img src="/IMG_20220220_104424.jpg" alt="">
+      <img src="/IMG_20220226_114716.jpg" alt="">
+      <img src="/IMG_20220603_103801.jpg" alt="">
+      <img src="/IMG_20211010_115414.jpg" alt="">
+    </div>
+
+    <div id="Home">
+      <h1 id="head">BLOGGE</h1>
+      <div id="nav1">
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+              <a href="/index.html">About</a>
+              <a href="/contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div id="social">
+        <nav>
+          <ul>
+            <li>
+               <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://github.com/PraveenChoudhary90"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/praveen-choudhary-b38305210/"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div id="footer">
+      <h1>&copy;Copyright 2024 - All About My Blogge &hearts; Praveen Choudhary&clubs;</h1>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,395 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#blog {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+#blog #blog0 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+}
+#blog #blog2 nav ul li {
+  list-style: none;
+}
+#blog #blog2 nav ul li a {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 25px;
+  color: black;
+}
+#blog #blog2 nav ul li a:hover {
+  color: white;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+#blog #blog3 nav ul li {
+  list-style: none;
+}
+#blog #blog3 nav ul li a {
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid grey;
+  border-radius: 60px;
+  color: black;
+}
+#blog #blog3 nav ul li a:hover {
+  color: white;
+  background-color: black;
+  border-radius: 25px;
+}
+
+#profile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 90px;
+  padding-left: 100px;
+}
+#profile #fristdiv {
+  padding-left: 90px;
+  padding-top: 90px;
+}
+#profile #fristdiv img {
+  width: 100px;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 50px;
+}
+#profile #seconddiv img {
+  width: 500px;
+  height: 400px;
+  border-radius: 30px;
+}
+
+#article {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  padding: 50px;
+}
+#article img {
+  width: 500px;
+  height: 500px;
+  border-radius: 40px;
+}
+#article #pic {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 40px;
+}
+#article #pic {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 40px;
+}
+#article #pic1 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 40px;
+}
+#article #pic2 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 40px;
+}
+#article #pic3 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 40px;
+}
+#article #pic4 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 40px;
+}
+#article #btn {
+  margin-top: 30px;
+}
+#article #btn1 {
+  margin-top: 30px;
+}
+#article #btn2 {
+  margin-top: 30px;
+}
+#article #btn3 {
+  margin-top: 30px;
+}
+#article #btn4 {
+  margin-top: 30px;
+}
+#article #btn5 {
+  margin-top: 30px;
+}
+#article #btn h1 {
+  margin-top: 20px;
+}
+#article #btn h4 {
+  margin-top: 20px;
+}
+#article #btn1 h1 {
+  margin-top: 20px;
+}
+#article #btn1 h4 {
+  margin-top: 20px;
+}
+#article #btn2 h1 {
+  margin-top: 20px;
+}
+#article #btn2 h4 {
+  margin-top: 20px;
+}
+#article #btn3 h1 {
+  margin-top: 20px;
+}
+#article #btn3 h4 {
+  margin-top: 20px;
+}
+#article #btn4 h1 {
+  margin-top: 20px;
+}
+#article #btn4 h4 {
+  margin-top: 20px;
+}
+#article #btn5 h1 {
+  margin-top: 20px;
+}
+#article #btn5 h4 {
+  margin-top: 20px;
+}
+#article #btn a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  background-color: black;
+  border-radius: 40px;
+}
+#article #btn1 a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  background-color: black;
+  border-radius: 40px;
+}
+#article #btn2 a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  background-color: black;
+  border-radius: 40px;
+}
+#article #btn3 a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  background-color: black;
+  border-radius: 40px;
+}
+#article #btn4 a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  background-color: black;
+  border-radius: 40px;
+}
+#article #btn5 a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  background-color: black;
+  border-radius: 40px;
+}
+
+#photo {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+}
+#photo img {
+  width: 400px;
+  height: 500px;
+  padding: 20px;
+  border-radius: 50px;
+}
+#photo img:hover {
+  width: 400px;
+  height: 500px;
+  padding: 20px;
+  color: black;
+  border: 2px solid red;
+  border-radius: 40px;
+}
+
+#post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  font-size: 40px;
+}
+
+#Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin: 50px;
+}
+#Home #nav1 {
+  padding-top: 50px;
+}
+#Home #social {
+  padding-top: 50px;
+}
+#Home #nav1 nav ul li {
+  list-style: none;
+  font-size: 30px;
+}
+#Home #nav1 nav ul li a {
+  text-decoration: none;
+  margin: 20px;
+  color: black;
+}
+#Home #social nav ul li {
+  list-style: none;
+  font-size: 30px;
+}
+#Home #social nav ul li a {
+  text-decoration: none;
+  margin: 20px;
+  color: black;
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 40px;
+}
+#Home #social nav ul li a:hover {
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+  background-color: black;
+  padding: 20px;
+  border-radius: 40px;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  color: black;
+}
+
+#login0 {
+  padding-left: 500px;
+  margin-top: 90px;
+}
+#login0 #login {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  height: 440px;
+  background-color: aqua;
+  box-shadow: 0px 1px 2px 2px;
+}
+#login0 #login input {
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 12px;
+  margin-top: 10px;
+}
+#login0 #login label {
+  font-size: 20px;
+  margin-top: 20px;
+}
+#login0 #login button {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#container {
+  margin-left: 200px;
+  margin-top: 80px;
+}
+#container h1 {
+  padding: 20px;
+}
+#container h3 {
+  padding-left: 25px;
+}
+#container #add {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+#container a {
+  padding: 10px;
+}
+#container #phone {
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+}
+
+#contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+}
+#contact #contact1 {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+#contact #contact1 input {
+  padding: 20px;
+  margin: 10px;
+}
+#contact #messg input {
+  padding: 90px;
+}
+#contact #map {
+  width: 100wh;
+  height: 100vh;
+  border: 1px solid black;
+}
+#contact button {
+  border: 1pc solid black;
+  border-radius: 40px;
+  color: white;
+  background-color: black;
+}
+
+#tabeldata {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 30px;
+}/*# sourceMappingURL=style.css.map */
